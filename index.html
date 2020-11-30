@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel='stylesheet'>
     <title>Aman Pandey</title>
-</head>
+     </head>
+
 <body>
-        <nav class="navbar">
-            <div class="nav-brand">Aman Pandey</div>
-            <div class="nav-brand">YetAnotherCoder</div>
-            <div>
-                <ul class="non-bullet">
-                    <li class="nav-li-items">
-                        <a href="/" class="link-active">Home</a>
-                    </li>
-                    <li class="nav-li-items">
-                        <a href="/">About</a>
-                    </li>
-                    <li class="nav-li-items">
-                        <a href="/">Projects</a>
-                    </li>
-                    <li class="nav-li-items">
-                        <a href="/">Blogs</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="container container-secondary-color header">
-                <img class="img-coding" src="./images/javascript.svg" alt="Coding Image">
-                <div class="intro">
-                    <p>Hi! I am  <span class="invert-color">Aman Pandey </span>, an emerging front end developer who is <br>
-                        deeply in love with the web technologies, currently learning about React JS.</p>
-                    <p>Keep visiting this space to know more about me <br> I will be hosting some cool projects here!</p>
-                </div>
+    <nav class="navbar">
+        <div class="nav-brand">Aman Pandey</div>
+        <div class="nav-brand">YetAnotherCoder</div>
+        <div>
+            <ul class="non-bullet">
+                <li class="nav-li-items">
+                    <a href="/" class="link-active">Home</a>
+                </li>
+                <li class="nav-li-items">
+                    <a href="#skills">About</a>
+                </li>
+                <li class="nav-li-items">
+                    <a href="/">Projects</a>
+                </li>
+                <li class="nav-li-items">
+                    <a href="/">Blogs</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="container container-off-color">
-            <div class="container-center">
+    <div class="container container-secondary-color header">
+        <img class="img-coding" src="./images/javascript.svg" alt="Coding Image">
+        <div class="intro">
+            <p>Hi! I am <span class="invert-color">Aman Pandey </span>, an emerging front end developer who is <br>
+                deeply in love with the web technologies, currently learning about React JS.</p>
+            <p>Keep visiting this space to know more about me <br> I will be hosting some cool projects here!</p>
+        </div>
+    </div>
+
+    <div class="container container-off-color">
+        <div class="container-center" id="skills">
             <h1 class="link-active">Skills</h1>
             <div>
-            <h5 class="table-mapping skills">Programming Languages :</h5>
+                <h5 class="table-mapping skills">Programming Languages :</h5>
                 <table class="table-mapping">
                     <tr>
                         <td>
-                         <img class="img-skills" src="./images/java.png" alt="">
+                            <img class="img-skills" src="./images/java.png" alt="">
                         </td>
                         <td>
-                         <img class="img-skills" src="./images/js.png" alt="">
+                            <img class="img-skills" src="./images/js.png" alt="">
                         </td>
                     </tr>
                     <tr>
@@ -61,28 +63,28 @@
                 <h5 class="table-mapping skills">Web Technologies &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</h5>
                 <table class="table-mapping">
                     <tr>
-                     <td>
-                         <img class="img-skills" src="./images/HTML.png" alt="">
-                     </td>
-                     <td>
-                         <img class="img-skills" src="./images/css.png" alt="">
-                     </td>
-                     <td>
-                         <img class="img-skills" src="./images/es6.png" alt="">
-                     </td>
-                     <td>
-                         <img class="img-skills" src="./images/bootstrap.png" alt="">
-                     </td>
-                     <td>
-                         <img class="img-skills" src="./images/react.png" alt="">
-                     </td>
+                        <td>
+                            <img class="img-skills" src="./images/HTML.png" alt="">
+                        </td>
+                        <td>
+                            <img class="img-skills" src="./images/css.png" alt="">
+                        </td>
+                        <td>
+                            <img class="img-skills" src="./images/es6.png" alt="">
+                        </td>
+                        <td>
+                            <img class="img-skills" src="./images/bootstrap.png" alt="">
+                        </td>
+                        <td>
+                            <img class="img-skills" src="./images/react.png" alt="">
+                        </td>
                     </tr>
-                     <tr>
-                         <td>HTML</td>
-                         <td>CSS</td>
-                         <td>ES6</td>
-                         <td>Bootstrap</td>
-                         <td>React JS</td>
+                    <tr>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td>ES6</td>
+                        <td>Bootstrap</td>
+                        <td>React JS</td>
                     </tr>
                 </table>
             </div><br>
@@ -95,21 +97,82 @@
                         </td>
                     </tr>
                     <tr>
-                       <td>
-                         GitHub
-                       </td>
-                     </tr>
+                        <td>
+                            GitHub
+                        </td>
+                    </tr>
                 </table>
             </div>
-               
-              
-               
-                   
+        </div>
+    </div>
+
+    <div class="container container-secondary-color">
+        <div class="container-center-secondary" id="skills">
+            <h1 class="link-active-inverse">Projects</h1><br>
+            <div class='flex-conatiner'>
+                <div class="card card-1">
+                    <h4>Do You Know Me  Quiz </h4>
+                    <p>A very basic Node JS command line interface (CLI) app which tests you on how much you know me.</p>
+                    <div class="project-links">
+                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
+                    </div>
+                </div>
+                <div class="card card-1">
+                    <h4>The Ultimate Random Quiz</h4>
+                    <p>You have too much of random knowledge if you can pass this quiz. CLI Quiz app made by using Javascript </p>
+                    <div class="project-links">
+                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
+                    </div>
+                </div>
+                <div class="card card-1">
+                    <h4>More Projects Coming Soon</h4>
+                    <p>Like minions?<br>Want to speak the 'banana' language?<br>  Watch this space for the Minion Transalation App</p>
+                    <div class="project-links">
+                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
+                    </div>
+                </div>
             </div>
         </div>
-    
-        
-    
-    
+    </div>
+
+    <div class="container container-off-color">
+        <div class="container-center">
+            <h1 class="link-active">Blogs</h1>
+            <div class='flex-conatiner'>
+                <div class="blog-card blog-card-1">
+                    <h4>Blog #1 </h4>
+                    <p>A very basic Node JS command line interface (CLI) app which tests you on how much you know me.</p>
+                    <div class="project-links">
+                        <button class="blog-buttons"><a href="">Play Quiz</a> </button>
+                        <button class="blog-buttons-secondary">View Source Code</button>
+                    </div>
+                </div>
+                <div class="blog-card blog-card-1">
+                    <h4>Blog #2</h4>
+                    <p>You have too much of random knowledge if you can pass this quiz. CLI Quiz app made by using Javascript </p>
+                    <div class="project-links">
+                        <button class="blog-buttons">Play Quiz</button>
+                        <button class="blog-buttons-secondary">View Source Code</button>
+                    </div>
+                </div>
+                <div class="blog-card blog-card-1">
+                    <h4>Blog #3</h4>
+                    <p>Like minions?<br>Want to speak the 'banana' language?<br>  Watch this space for the Minion Transalation App</p>
+                    <div class="project-links">
+                        <button class="blog-buttons">Play Quiz</button>
+                        <button class="blog-buttons-secondary">View Source Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </body>
+
 </html>
