@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Aman Pandey</title>
      </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-brand">Aman Pandey</div>
-        <div class="nav-brand">YetAnotherCoder</div>
+    <nav class="navbar" >
+        <div class="header">
+            <div class="nav-brand name subtitle "> Aman Pandey</div>
+            <div class="nav-brand sub subtitle">Mr.YetAnotherCoder</div>
         <div>
             <ul class="non-bullet">
                 <li class="nav-li-items">
@@ -21,16 +23,18 @@
                     <a href="#skills">About</a>
                 </li>
                 <li class="nav-li-items">
-                    <a href="/">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li class="nav-li-items">
-                    <a href="/">Blogs</a>
+                    <a href="#blogs">Blogs</a>
                 </li>
             </ul>
         </div>
+        </div>
+        
     </nav>
 
-    <div class="container container-secondary-color header">
+    <div class="container container-secondary-color">
         <img class="img-coding" src="./images/javascript.svg" alt="Coding Image">
         <div class="intro">
             <p>Hi! I am <span class="invert-color">Aman Pandey </span>, an emerging front end developer who is <br>
@@ -106,70 +110,86 @@
         </div>
     </div>
 
+    <!-- Projects sections starts here -->
+
     <div class="container container-secondary-color">
-        <div class="container-center-secondary" id="skills">
+        <div class="container-center-secondary" id="projects">
             <h1 class="link-active-inverse">Projects</h1><br>
             <div class='flex-conatiner'>
                 <div class="card card-1">
                     <h4>Do You Know Me  Quiz </h4>
                     <p>A very basic Node JS command line interface (CLI) app which tests you on how much you know me.</p>
                     <div class="project-links">
-                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
-                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
+                        <button class="project-buttons"><a class="link-play" href="https://repl.it/@AmanPandey4/Know-Me-the-Game?embed=1&output" target="_blank">Play Quiz</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="https://github.com/pandeyaman/Do-You-Know-Me" target="_blank">View Source Code</a></button>
                     </div>
                 </div>
                 <div class="card card-1">
                     <h4>The Ultimate Random Quiz</h4>
                     <p>You have too much of random knowledge if you can pass this quiz. CLI Quiz app made by using Javascript </p>
                     <div class="project-links">
-                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
-                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
+                        <button class="project-buttons"><a class="link-play" href="https://repl.it/@AmanPandey4/The-Ultimate-Random-Quiz?embed=1&output" target="_blank">Play Quiz</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="https://github.com/pandeyaman/The-Ultimate-Random-Quiz" target="_blank">View Source Code</a></button>
                     </div>
                 </div>
                 <div class="card card-1">
                     <h4>More Projects Coming Soon</h4>
-                    <p>Like minions?<br>Want to speak the 'banana' language?<br>  Watch this space for the Minion Transalation App</p>
-                    <div class="project-links">
-                        <button class="project-buttons"><a class="link-play" href="">Play Quiz</a> </button>
-                        <button class="project-buttons-secondary"><a class="link-source-code" href="">View Source Code</a></button>
-                    </div>
+                    <p>Like minions?<br>Want to speak the 'banana' language?<br> Watch this space for the Minion Transalation App <br>Coming Soon!<br><br></p>
+                    <!-- <div class="project-links">
+                        <button class="project-buttons"><a class="link-play" href="" target="_blank">Stay</a> </button>
+                        <button class="project-buttons-secondary"><a class="link-source-code" href="" target="_blank">Tuned</a></button>
+                    </div> -->
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
+    <!-- Projects sections ends here -->
 
+    <!-- Blogs sections starts here -->
     <div class="container container-off-color">
-        <div class="container-center">
-            <h1 class="link-active">Blogs</h1>
+        <div class="container-center" id="blogs">
+            <h1 class="link-active">Blogs</h1><br>
             <div class='flex-conatiner'>
                 <div class="blog-card blog-card-1">
                     <h4>Blog #1 </h4>
-                    <p>A very basic Node JS command line interface (CLI) app which tests you on how much you know me.</p>
+                    <p>A Dummy blog <br>I will start writing soon, till then read a blog on <em>'How to write a good commit message'</em></p>
                     <div class="project-links">
-                        <button class="blog-buttons"><a href="">Play Quiz</a> </button>
-                        <button class="blog-buttons-secondary">View Source Code</button>
+                        <button class="blog-buttons"><a class="link-blog-read" href="https://dev.to/chrissiemhrk/git-commit-message-5e21" target="_blank">Read Blog</a> </button>
                     </div>
                 </div>
                 <div class="blog-card blog-card-1">
                     <h4>Blog #2</h4>
-                    <p>You have too much of random knowledge if you can pass this quiz. CLI Quiz app made by using Javascript </p>
+                    <p>A Dummy blog <br>I will start writing soon, till then read a blog on <em>'How to write a kickass README'</em></p>
                     <div class="project-links">
-                        <button class="blog-buttons">Play Quiz</button>
-                        <button class="blog-buttons-secondary">View Source Code</button>
+                        <button class="blog-buttons"><a class="link-blog-read" href="https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9" target="_blank">Read Blog</a> </button>
                     </div>
                 </div>
                 <div class="blog-card blog-card-1">
                     <h4>Blog #3</h4>
-                    <p>Like minions?<br>Want to speak the 'banana' language?<br>  Watch this space for the Minion Transalation App</p>
+                    <p>A Dummy blog <br>I will start writing soon, till then read a blog on <em>'Tips to use VSCode more efficiently'</em></p>
                     <div class="project-links">
-                        <button class="blog-buttons">Play Quiz</button>
-                        <button class="blog-buttons-secondary">View Source Code</button>
+                        <button class="blog-buttons"><a class="link-blog-read" href="https://dev.to/selrond/tips-to-use-vscode-more-efficiently-3h6p" target="_blank">Read Blog</a> </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Blogs sections ends here -->
 
+    <div class="container container-footer">
+        <div class="container-footer-center">
+            <div class="footer-text-div">
+                <p class="intro footer-text">Are you are Tea person or a Coffee person? <br> Connect with me & let me know.</p>
+            </div>
+            <div class="footer-icon">
+                <a href="mailto:pandey.aman111@gmail.com" class="fa fa-google" target="_blank"></a>
+                <a href="https://twitter.com/pandeyaman111" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/pandeyaman111/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/pandeyaman" class="fa fa-github" target="_blank"></a>
+                <a href="https://telegram.me/pandeyaman111" class="fa fa-telegram" target="_blank"></a>
+            </div>
+        </div>
+    </div>
 
 
 
