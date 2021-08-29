@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px;
     background-color: #f9813a;
+    
 }
 
 .header{
@@ -220,6 +224,7 @@ table,td{
     font-weight: 100;
     border: 1px #222831 solid;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .project-buttons-secondary{
@@ -230,6 +235,7 @@ table,td{
     color: #222831;
     border: 1px #222831 solid;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .blog-buttons{
@@ -240,6 +246,7 @@ table,td{
     color: #f9813a;;
     font-weight: 100;
     border: 1px #f9813a solid;
+    cursor: pointer;
 }
 
 
@@ -282,7 +289,7 @@ table,td{
   }
   
   .blog-card-1:hover {
-    box-shadow: 0 12px 12px rgba(209, 97, 6, 0.25), 0 12px 12px rgba(209, 97, 6, 0.25);
+    box-shadow: 0 6px 12px rgba(209, 97, 6, 0.25), 0 6px 12px rgba(209, 97, 6, 0.25);
   }
 
   .blog-card h4{
@@ -308,6 +315,7 @@ table,td{
     font-size: 1rem;
 }
 
+
 .footer-text-div{
     border: 1px solid #131518;
 }
@@ -315,6 +323,7 @@ table,td{
 .footer-icon{
     margin: 1rem auto 0rem auto;
     width: fit-content;
+    
 }
 
 .fa {
@@ -331,6 +340,7 @@ table,td{
       opacity: 1;
       background : #F9813A;
       color: #131518;
+      transition: .2s;
   }
   
   .fa-twitter {
